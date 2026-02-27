@@ -1,0 +1,420 @@
+# Package index
+
+## Mendelian Randomization
+
+- [`Bio_MR_add_pheno()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_add_pheno.md)
+  : Add phenotype column
+- [`Bio_MR_calc_f()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_calc_f.md)
+  : Calculate F-statistic from R2
+- [`Bio_MR_calc_or()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_calc_or.md)
+  : Calculate odds ratios from MR results
+- [`Bio_MR_calc_r2()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_calc_r2.md)
+  : Calculate R2 for exposure instruments
+- [`Bio_MR_cast_numeric()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_cast_numeric.md)
+  : Coerce columns to numeric
+- [`Bio_MR_check_cols()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_check_cols.md)
+  : Check required columns in a data.frame
+- [`Bio_MR_clump_dispatch()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_clump_dispatch.md)
+  : LD clumping dispatcher
+- [`Bio_MR_clump_local()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_clump_local.md)
+  : LD clumping using local PLINK
+- [`Bio_MR_clump_remote()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_clump_remote.md)
+  : LD clumping using remote API
+- [`Bio_MR_filter_f()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_filter_f.md)
+  : Filter by F-statistic
+- [`Bio_MR_filter_p()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_filter_p.md)
+  : Filter by P-value
+- [`Bio_MR_format_exposure()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_format_exposure.md)
+  : Format exposure data for TwoSampleMR
+- [`Bio_MR_format_outcome()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_format_outcome.md)
+  : Format outcome data for TwoSampleMR
+- [`Bio_MR_harmonize_list()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_harmonize_list.md)
+  : Harmonise a list of exposures with one outcome
+- [`Bio_MR_harmonize_one()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_harmonize_one.md)
+  : Harmonise one exposure with one outcome
+- [`Bio_MR_harmonize_post()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_harmonize_post.md)
+  : Post-process harmonised list
+- [`Bio_MR_heterogeneity()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_heterogeneity.md)
+  : Heterogeneity test
+- [`Bio_MR_merge_sensitivity()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_merge_sensitivity.md)
+  : Merge sensitivity results into MR summary table
+- [`Bio_MR_pipeline()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_pipeline.md)
+  : Full MR pipeline
+- [`Bio_MR_pivot_results()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_pivot_results.md)
+  : Pivot MR results to wide format
+- [`Bio_MR_pleiotropy()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_pleiotropy.md)
+  : Pleiotropy test
+- [`Bio_MR_prepare_outcome()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_prepare_outcome.md)
+  : Prepare outcome data (add phenotype and format)
+- [`Bio_MR_process_exposure()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_process_exposure.md)
+  : Process exposure data (pipeline)
+- [`Bio_MR_run_batch()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_run_batch.md)
+  : Run MR analysis for a list of harmonised datasets
+- [`Bio_MR_run_methods()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_run_methods.md)
+  : Run MR methods
+- [`Bio_MR_run_single()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_run_single.md)
+  : Run MR analysis for one harmonised dataset
+- [`Bio_MR_safe_name()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_safe_name.md)
+  : Sanitize names for file output
+- [`Bio_MR_select_keep()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_select_keep.md)
+  : Filter by mr_keep column
+- [`Bio_MR_steiger()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_steiger.md)
+  : Steiger directionality test
+- [`Bio_MR_write_harmonized()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_write_harmonized.md)
+  : Write harmonised data to file
+- [`Bio_MR_write_results()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MR_write_results.md)
+  : Write MR results to files
+
+## Bulk RNA-seq
+
+- [`Bio_Bulk_WGCNA()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_WGCNA.md)
+  : WGCNA Analysis for Bulk RNA-seq
+- [`Bio_Bulk_WGCNA_get_module_genes()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_WGCNA_get_module_genes.md)
+  : Extract Module Genes From WGCNA Results
+- [`Bio_Bulk_align_group()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_align_group.md)
+  : Align Bulk Expression and Group Metadata
+- [`Bio_Bulk_cibersort_analysis()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_cibersort_analysis.md)
+  : CIBERSORT Immune Infiltration Analysis
+- [`Bio_Bulk_filter_low_expression()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_filter_low_expression.md)
+  : Filter Low-Expression Genes
+- [`Bio_Bulk_gsea_pipeline()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_gsea_pipeline.md)
+  : GSEA Pipeline for Bulk RNA-seq
+- [`Bio_Bulk_limma_analysis()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_limma_analysis.md)
+  : Limma Differential Expression for Bulk RNA-seq
+- [`Bio_Bulk_ora_enrichment()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_ora_enrichment.md)
+  : GO/KEGG ORA Enrichment Analysis
+- [`Bio_Bulk_plot_wgcna_results()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_Bulk_plot_wgcna_results.md)
+  : Plot WGCNA Results
+
+## OTTERS
+
+- [`Bio_OTTERS_create_sh()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_OTTERS_create_sh.md)
+  : Create OTTERS scripts (stage 1 or stage 2)
+- [`Bio_OTTERS_create_sh_stage1()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_OTTERS_create_sh_stage1.md)
+  : Create OTTERS stage 1 training scripts
+- [`Bio_OTTERS_create_sh_stage2()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_OTTERS_create_sh_stage2.md)
+  : Create OTTERS stage 2 testing scripts
+- [`Bio_OTTERS_format_eqtl()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_OTTERS_format_eqtl.md)
+  : Format eQTL summary for OTTERS stage 1
+- [`Bio_OTTERS_format_gwas()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_OTTERS_format_gwas.md)
+  : Format GWAS summary for OTTERS
+
+## SMR
+
+- [`Bio_SMR_local()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  [`Bio_SMR_path()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  [`Bio_SMR_check_snp()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  [`Bio_SMR_create_BESD()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  [`Bio_SMR_create_ma()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  [`Bio_SMR_extract2BESD()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  [`Bio_SMR_run()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  [`Bio_SMR_summary_xqtl()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR.md)
+  : SMR helpers
+- [`Bio_SMR_check_snp()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_check_snp.md)
+  : Harmonize allele columns by most frequent alleles
+- [`Bio_SMR_create_BESD()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_create_BESD.md)
+  : Create BESD from eQTL data
+- [`Bio_SMR_create_ma()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_create_ma.md)
+  : Create .ma file for SMR
+- [`Bio_SMR_extract2BESD()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_extract2BESD.md)
+  : Extract to BESD using SMR
+- [`Bio_SMR_local()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_local.md)
+  : Locate SMR executable bundled with the package
+- [`Bio_SMR_path()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_path.md)
+  : Normalize path for SMR (Windows compatibility)
+- [`Bio_SMR_run()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_run.md)
+  : Run SMR
+- [`Bio_SMR_summary_xqtl()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_SMR_summary_xqtl.md)
+  : Summarize xQTL data via SMR
+
+## FUSION / TWAS
+
+- [`Bio_FUSION_build_cmds()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_FUSION_build_cmds.md)
+  : Build FUSION Assoc Test Commands
+- [`Bio_FUSION_prepare_ldsumd()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_FUSION_prepare_ldsumd.md)
+  : Prepare FUSION LDSUMD Files
+- [`Bio_FUSION_run_cmds()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_FUSION_run_cmds.md)
+  : Run FUSION Commands in Parallel
+- [`Bio_scTWAS_create_sh()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scTWAS_create_sh.md)
+  : Create SPrediXcan (scTWAS) shell scripts
+
+## LDSC / MTAG
+
+- [`Bio_LDSC_R()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_LDSC_R.md)
+  : LDSC analysis with the ldscr R package
+- [`Bio_LDSC_conda()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_LDSC_conda.md)
+  : Conda-based LDSC workflow (format + munge + rg)
+- [`Bio_MTAG()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MTAG.md)
+  : MTAG workflow (format + run)
+
+## Colocalization
+
+- [`Bio_coloc()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_coloc.md)
+  : Colocalization Analysis for eQTL and Outcome Data
+- [`Bio_INTACT()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_INTACT.md)
+  : INTACT Integration for Colocalization and TWAS
+
+## Diagnostics
+
+- [`Bio_build_diagnostic_model()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_build_diagnostic_model.md)
+  : Build Diagnostic Model With Nomogram and DCA
+- [`Bio_MLP_train()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_MLP_train.md)
+  : Train an MLP diagnostic model (binary classification)
+- [`Bio_RF_train()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_RF_train.md)
+  : Train a random forest classifier
+
+## Single-cell
+
+- [`Bio_scRNA_assign_celltype()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_assign_celltype.md)
+  : Assign cell types by cluster mapping
+- [`Bio_scRNA_cellcycle_score()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_cellcycle_score.md)
+  : Cell cycle scoring for scRNA-seq
+- [`Bio_scRNA_cluster_sweep()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_cluster_sweep.md)
+  : Cluster sweep across resolutions
+- [`Bio_scRNA_de_by_celltype()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_de_by_celltype.md)
+  : Differential expression by cell type and condition
+- [`Bio_scRNA_markers_top()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_markers_top.md)
+  : Find markers and top genes per cluster
+- [`Bio_scRNA_normalize_pca()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_normalize_pca.md)
+  : Normalize, find variable features, scale, and run PCA
+- [`Bio_scRNA_pick_dims()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_pick_dims.md)
+  : Pick number of PCs based on variance heuristics
+- [`Bio_scRNA_prepare_heatmap_mats()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_prepare_heatmap_mats.md)
+  : Prepare logFC and p-value matrices for heatmap
+- [`Bio_scRNA_qc_filter()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_qc_filter.md)
+  : QC filtering for scRNA-seq Seurat objects
+- [`Bio_scRNA_run_harmony()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_run_harmony.md)
+  : Run Harmony integration
+- [`Bio_scRNA_run_umap_tsne()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_run_umap_tsne.md)
+  : Run UMAP and tSNE
+- [`Bio_scRNA_scTenifoldKnk()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_scTenifoldKnk.md)
+  : Virtual knockout analysis with scTenifoldKnk
+- [`Bio_scRNA_sctransform()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_scRNA_sctransform.md)
+  : SCTransform with optional integration
+
+## gsMAP
+
+- [`Bio_GSMAP_create_sh()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_GSMAP_create_sh.md)
+  : Create gsMAP batch shell script
+
+## XGBoost / SHAP
+
+- [`Bio_XGB_regression()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_XGB_regression.md)
+  : XGBoost regression with SHAP (Python)
+- [`Bio_XGB_multiclass()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Bio_XGB_multiclass.md)
+  : XGBoost multiclass with SHAP (Python)
+
+## Analysis
+
+- [`Epi_nomogram_logistic()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_nomogram_logistic.md)
+  : Nomogram for logistic regression model
+
+## Epidemiology
+
+- [`Epi_PSM_match()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_PSM_match.md)
+  : Propensity Score Matching (PSM)
+- [`Epi_PSM_baseline_tables()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_PSM_baseline_tables.md)
+  : PSM Baseline Tables Before/After Matching
+- [`Epi_Stepwise_Regression()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_Stepwise_Regression.md)
+  [`` `Epi_Stepwise-Regression`() ``](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_Stepwise_Regression.md)
+  : Stepwise Regression for Binary Outcomes
+- [`Epi_ElasticNet()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_ElasticNet.md)
+  : Elastic Net Feature Selection (Binary Outcome)
+- [`Epi_Lasso()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_Lasso.md)
+  : Lasso Feature Selection (Binary Outcome)
+- [`Epi_Ridge()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_Ridge.md)
+  : Ridge Feature Selection (Binary Outcome)
+- [`Epi_logistic_univ()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_logistic_univ.md)
+  : Univariable Logistic Regression
+- [`Epi_logistic_vif()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_logistic_vif.md)
+  : VIF Collinearity Diagnosis
+- [`Epi_logistic_multiv()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_logistic_multiv.md)
+  : Multivariable Logistic Regression
+- [`Epi_RCS_analysis()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/Epi_RCS_analysis.md)
+  : Restricted Cubic Spline (RCS) Analysis
+
+## Plots
+
+- [`plot_batch_boxplot()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_batch_boxplot.md)
+  : Batch boxplot with jitter and pairwise comparisons
+- [`plot_ccgraph()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_ccgraph.md)
+  : Circular hierarchical graph (ccgraph)
+- [`plot_confusion_heatmap()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_confusion_heatmap.md)
+  : Confusion matrix heatmap
+- [`plot_confusion_matrix_custom()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_confusion_matrix_custom.md)
+  : Plot a custom confusion matrix
+- [`plot_diagnostic_roc()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_diagnostic_roc.md)
+  : Diagnostic ROC Analysis
+- [`plot_gene_deg_cor_parallel()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_gene_deg_cor_parallel.md)
+  : Parallel Correlation of Target Gene vs DEG Set
+- [`plot_gene_pair_cor()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_gene_pair_cor.md)
+  : Gene Pair Correlation Plot
+- [`plot_glmnet_cvpath()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_glmnet_cvpath.md)
+  : glmnet Plots (CV Curve and Coefficient Path)
+- [`plot_gsva_limma_barplot()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_gsva_limma_barplot.md)
+  : GSVA + limma pathway analysis with diverging barplot
+- [`plot_imm_boxplot()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_imm_boxplot.md)
+  : Immune Infiltration Boxplot
+- [`plot_imm_cor_heatmap()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_imm_cor_heatmap.md)
+  : Gene-Immune Correlation Heatmap
+- [`plot_imm_sig_scatters()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_imm_sig_scatters.md)
+  : Significant Immune Correlation Scatterplots
+- [`plot_logistic_forest()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_logistic_forest.md)
+  : Forest Plot for Logistic Regression Results
+- [`plot_love()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_love.md)
+  : Love Plot for Absolute Standardized Mean Differences
+- [`plot_manhattan()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_manhattan.md)
+  : Manhattan Plot With Built-In Data Processing
+- [`plot_mlp_network()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_mlp_network.md)
+  : Plot MLP network structure
+- [`plot_mulberry()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_mulberry.md)
+  : Mulberry (alluvial) plot
+- [`plot_paired_boxplot()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_paired_boxplot.md)
+  : Paired boxplot with paired test
+- [`plot_paired_dumbbell_heat()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_paired_dumbbell_heat.md)
+  : Paired dumbbell + heatmap combined plot
+- [`plot_posthoc_extended_errorbar()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_posthoc_extended_errorbar.md)
+  : Post-hoc extended error bar plot
+- [`plot_qc_boxplot()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_qc_boxplot.md)
+  : QC boxplot for sample intensity
+- [`plot_rcs_curve()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_rcs_curve.md)
+  : Plot RCS Curve
+- [`plot_rf_importance()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_rf_importance.md)
+  : Plot variable importance from a random forest model
+- [`plot_rf_roc()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_rf_roc.md)
+  : Plot ROC curve for random forest predictions
+- [`plot_scRNA_celltype_umap()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_scRNA_celltype_umap.md)
+  : Cluster tree plot for resolution sweep
+- [`plot_scRNA_cluster_grid()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_scRNA_cluster_grid.md)
+  : Grid of UMAPs across clustering resolutions
+- [`plot_scRNA_dim()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_scRNA_dim.md)
+  : Dimensionality plot wrapper
+- [`plot_scRNA_heatmap()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_scRNA_heatmap.md)
+  : Heatmap of logFC with p-value stars
+- [`plot_scRNA_qc_violin()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_scRNA_qc_violin.md)
+  : QC violin plot for scRNA-seq
+- [`plot_shap_summary()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_shap_summary.md)
+  : SHAP summary plot (Python shap)
+- [`plot_side_effect_stack()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_side_effect_stack.md)
+  : Stacked side-effect plot (adverse vs benefit)
+- [`plot_swimmer()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_swimmer.md)
+  : Swimmer plot for clinical timelines
+- [`plot_symmetric_raincloud()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_symmetric_raincloud.md)
+  : Symmetric raincloud plot (half violin + box + paired points)
+- [`plot_taxa_stacked_bar()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_taxa_stacked_bar.md)
+  : Stacked bar plot for taxa abundance
+- [`plot_timeline()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_timeline.md)
+  : Timeline plot
+- [`plot_venn()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_venn.md)
+  : Venn Diagram for 2 or 3 Gene Sets
+- [`plot_volcano_advanced()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_volcano_advanced.md)
+  : Advanced volcano plot
+- [`plot_volcano_hyperbola()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_volcano_hyperbola.md)
+  : Volcano plot with hyperbolic threshold
+
+## GSVA / limma
+
+- [`plot_gsva_limma_barplot()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/plot_gsva_limma_barplot.md)
+  : GSVA + limma pathway analysis with diverging barplot
+
+## ccgraph
+
+- [`gather_graph_node()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/gather_graph_node.md)
+  : Gather graph nodes from a data.frame
+- [`gather_graph_edge()`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/gather_graph_edge.md)
+  : Gather graph edges from a data.frame
+
+## Data
+
+- [`gene_anno_hg38`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/gene_anno_hg38.md)
+  : Gene Annotation (hg38)
+- [`gene_anno_hg37`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/gene_anno_hg37.md)
+  : Gene Annotation (hg37)
+- [`intact_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/intact_demo.md)
+  : Demo Data for INTACT
+- [`eqtl_coloc_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/eqtl_coloc_demo.md)
+  : Demo eQTL Colocalization Data
+- [`outcome_coloc_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/outcome_coloc_demo.md)
+  : Demo Outcome Data for Colocalization
+- [`smr_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/smr_demo.md)
+  : Demo data for SMR
+- [`xgb_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/xgb_demo.md)
+  : Demo data for XGBoost + SHAP
+- [`batch_boxplot_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/batch_boxplot_demo.md)
+  : Demo data for batch boxplot
+- [`bulk_expr_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/bulk_expr_demo.md)
+  : Demo Bulk Expression Data
+- [`bulk_group_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/bulk_group_demo.md)
+  : Demo Bulk Group Data
+- [`ccgraph_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/ccgraph_demo.md)
+  : Demo data for circular hierarchical graph
+- [`diagnostic_roc_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/diagnostic_roc_demo.md)
+  : Demo data for diagnostic ROC
+- [`elasticnet_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/elasticnet_demo.md)
+  : Demo Data for Elastic Net
+- [`gene_cor_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/gene_cor_demo.md)
+  : Demo data for gene correlation plots
+- [`gsva_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/gsva_demo.md)
+  : Demo data for GSVA + limma barplot
+- [`imm_boxplot_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/imm_boxplot_demo.md)
+  : Demo data for immune boxplot
+- [`imm_cor_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/imm_cor_demo.md)
+  : Demo data for immune correlation plots
+- [`ldsc_mtag_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/ldsc_mtag_demo.md)
+  : Demo data for LDSC/MTAG workflows
+- [`logistic_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/logistic_demo.md)
+  : Demo Data for Logistic Regression
+- [`love_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/love_demo.md)
+  : Demo Data for Love Plot
+- [`manhattan_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/manhattan_demo.md)
+  : Demo data for Manhattan plot
+- [`mlp_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/mlp_demo.md)
+  : Demo data for MLP diagnostic model
+- [`mlp_network_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/mlp_network_demo.md)
+  : Demo data for MLP network plot
+- [`mr_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/mr_demo.md)
+  : Demo data for MR workflow
+- [`mulberry_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/mulberry_demo.md)
+  : Demo data for mulberry plot
+- [`nomogram_logistic_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/nomogram_logistic_demo.md)
+  : Demo data for logistic nomogram
+- [`otters_eqtl_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/otters_eqtl_demo.md)
+  : Demo data for OTTERS eQTL formatting
+- [`otters_gwas_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/otters_gwas_demo.md)
+  : Demo data for OTTERS GWAS formatting
+- [`otters_sh_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/otters_sh_demo.md)
+  : Demo config for OTTERS script generation
+- [`paired_boxplot_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/paired_boxplot_demo.md)
+  : Demo data for paired boxplot
+- [`paired_dumbbell_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/paired_dumbbell_demo.md)
+  : Demo data for paired dumbbell + heatmap plot
+- [`posthoc_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/posthoc_demo.md)
+  : Demo data for post-hoc extended error bar plot
+- [`psm_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/psm_demo.md)
+  : Demo Data for PSM
+- [`qc_boxplot_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/qc_boxplot_demo.md)
+  : Demo data for QC boxplot
+- [`rcs_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/rcs_demo.md)
+  : Demo Data for RCS Analysis
+- [`rf_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/rf_demo.md)
+  : Demo data for random forest classification
+- [`sc_twas_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/sc_twas_demo.md)
+  : Demo parameters for scTWAS script generation
+- [`side_effect_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/side_effect_demo.md)
+  : Demo data for side-effect stacked plot
+- [`stepwise_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/stepwise_demo.md)
+  : Demo Data for Stepwise Regression
+- [`swimmer_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/swimmer_demo.md)
+  : Demo data for swimmer plot
+- [`symmetric_raincloud_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/symmetric_raincloud_demo.md)
+  : Demo data for symmetric raincloud plot
+- [`taxa_stack_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/taxa_stack_demo.md)
+  : Demo data for taxa stacked bar plot
+- [`timeline_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/timeline_demo.md)
+  : Demo data for timeline plot
+- [`venn_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/venn_demo.md)
+  : Demo Gene Sets for Venn Plot
+- [`volcano_advanced_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/volcano_advanced_demo.md)
+  : Demo data for advanced volcano plot
+- [`volcano_curve_demo`](https://Edison-Liang922.github.io/EpiBioX-docs/reference/volcano_curve_demo.md)
+  : Demo data for hyperbolic volcano plot

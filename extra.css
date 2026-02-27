@@ -1,0 +1,40 @@
+:root {
+  --brand-ink: #1b2b36;
+  --brand-accent: #2b5d8a;
+  --brand-accent-2: #9b7b2f;
+  --brand-mist: #f7f7f9;
+  --brand-card: #ffffff;
+  --brand-border: #dfe5ea;
+}
+
+body {
+  color: var(--brand-ink);
+  background: var(--brand-mist);
+}
+
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 1px solid var(--brand-border);
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+h1, h2, h3, h4 {
+  color: #17212b;
+}
+
+main a {
+  color: var(--brand-accent);
+}
+
+.page-header {
+  border-bottom: 2px solid var(--brand-border);
+  margin-bottom: 1.2rem;
+}
+
+pre, code {
+  border-radius: 8px;
+}
