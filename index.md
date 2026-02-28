@@ -1,11 +1,12 @@
-# EpiBioX
+# EpiBioToolkit (EBT)
 
 *Epidemiology & Bioinformatics eXplorer*
 
-EpiBioX is an R toolkit for epidemiology and omics workflows, with
-emphasis on reproducible analysis, well-documented inputs, and
-publication-ready plots. It also includes a single-cell module for QC,
-integration, clustering, annotation, and downstream analyses.
+EpiBioToolkit (EBT) is an R toolkit for epidemiology and omics
+workflows, with emphasis on reproducible analysis, well-documented
+inputs, and publication-ready plots. It also includes a single-cell
+module for QC, integration, clustering, annotation, and downstream
+analyses.
 
 ## Installation
 
@@ -13,17 +14,17 @@ integration, clustering, annotation, and downstream analyses.
 
 # Private GitHub install (requires token)
 Sys.setenv(GITHUB_PAT = "YOUR_TOKEN")
-remotes::install_github("Edison-Liang922/EpiBioX")
+remotes::install_github("Edison-Liang922/EpiBioToolkit")
 
 # Local install (if you have the source)
-devtools::install("/Users/edisonliang/Desktop/R包打包/EpiBioX")
+devtools::install("/Users/edisonliang/Desktop/R包打包/EpiBioToolkit")
 ```
 
 ## Quick start
 
 ``` r
 
-library(EpiBioX)
+library(EpiBioToolkit)
 
 # MR pipeline demo
 data("mr_demo")

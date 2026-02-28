@@ -16,14 +16,14 @@
 
 ## Citation
 
-Liang W, Yang Z, Wen Z, Lai J (2026). *EpiBioX: Epidemiology &
-Bioinformatics eXplorer*. R package version 0.0.0.9000,
-<https://Edison-Liang922.github.io/EpiBioX-docs>.
+Liang W, Yang Z, Wen Z, Lai J (2026). *EpiBioToolkit: Epidemiology &
+Bioinformatics Toolkit*. R package version 0.0.0.9000,
+<https://Edison-Liang922.github.io/EpiBioToolkit-docs>.
 
     @Manual{,
-      title = {EpiBioX: Epidemiology & Bioinformatics eXplorer},
+      title = {EpiBioToolkit: Epidemiology & Bioinformatics Toolkit},
       author = {Weixuan Liang and Ziyang Yang and Zhuofeng Wen and Jiahui Lai},
       year = {2026},
       note = {R package version 0.0.0.9000},
-      url = {https://Edison-Liang922.github.io/EpiBioX-docs},
+      url = {https://Edison-Liang922.github.io/EpiBioToolkit-docs},
     }
