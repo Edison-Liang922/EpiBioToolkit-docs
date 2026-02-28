@@ -90,6 +90,7 @@
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Bio_scRNA_scTenifoldKnk.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Bio_scRNA_sctransform.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Bio_scTWAS_create_sh.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_DCA.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_ElasticNet.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_Lasso.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_PSM_baseline_tables.html</loc></url>
@@ -97,10 +98,18 @@
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_RCS_analysis.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_Ridge.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_Stepwise_Regression.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_calibration_bootstrap.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_cox_multiv.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_cox_ph_test.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_hoslem_test.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_interaction_lrt.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_km_logrank.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_lasso_cox.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_logistic_multiv.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_logistic_univ.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_logistic_vif.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_nomogram_logistic.html</loc></url>
+<url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_timeROC.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/batch_boxplot_demo.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/bulk_expr_demo.html</loc></url>
 <url><loc>https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/bulk_group_demo.html</loc></url>

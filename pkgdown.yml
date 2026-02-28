@@ -2,7 +2,7 @@ pandoc: 3.8.3
 pkgdown: 2.2.0.9000
 pkgdown_sha: f3ec6e2bb122e10436eccda7b221e297ab9d395a
 articles: {}
-last_built: 2026-02-28T04:42Z
+last_built: 2026-02-28T13:17Z
 urls:
   reference: https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference
   article: https://Edison-Liang922.github.io/EpiBioToolkit-docs/articles

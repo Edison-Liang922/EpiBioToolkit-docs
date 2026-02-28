@@ -250,6 +250,24 @@
   : VIF Collinearity Diagnosis
 - [`Epi_logistic_multiv()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_logistic_multiv.md)
   : Multivariable Logistic Regression
+- [`Epi_cox_multiv()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_cox_multiv.md)
+  : Multivariable Cox Regression
+- [`Epi_cox_ph_test()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_cox_ph_test.md)
+  : Cox PH Assumption Test
+- [`Epi_km_logrank()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_km_logrank.md)
+  : KM Survival Curve and Log-rank Test
+- [`Epi_timeROC()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_timeROC.md)
+  : Time-dependent ROC for Survival Outcomes
+- [`Epi_interaction_lrt()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_interaction_lrt.md)
+  : Interaction LRT for Logistic/Cox Models
+- [`Epi_lasso_cox()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_lasso_cox.md)
+  : Lasso Cox Regression
+- [`Epi_hoslem_test()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_hoslem_test.md)
+  : Hosmer-Lemeshow Goodness-of-Fit Test
+- [`Epi_calibration_bootstrap()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_calibration_bootstrap.md)
+  : Bootstrap Calibration Curve (Logistic)
+- [`Epi_DCA()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_DCA.md)
+  : Decision Curve Analysis (DCA)
 - [`Epi_RCS_analysis()`](https://Edison-Liang922.github.io/EpiBioToolkit-docs/reference/Epi_RCS_analysis.md)
   : Restricted Cubic Spline (RCS) Analysis
 
